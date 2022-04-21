@@ -1,16 +1,19 @@
-### Hi there 👋
+## Obsidian 
 
-<!--
-**slytry/slytry** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- [Knowledge base](https://github.com/slytry/base)
+- [Первая попытка публикации garden](url)
+- [Форк quartz](https://github.com/slytry/quartz)
 
-Here are some ideas to get you started:
+## Slides
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [Презентация по правильным коммитам](https://github.com/slytry/shower__conventional-commits)
+
+## Study 
+
+- [Смотрел как работает setTimeout в useEffect](https://github.com/slytry/study__setTimeout-on-useEffect)
+
+## Tenmplate
+
+- [foundation-for-emails](https://github.com/slytry/foundation-for-emails)
+- []()
+
