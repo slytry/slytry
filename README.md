@@ -11,12 +11,13 @@
 ## Study 
 
 - [Смотрел как работает setTimeout в useEffect](https://github.com/slytry/study__setTimeout-on-useEffect)
+- [Пробовал констуктор коммитов с хаски](https://github.com/slytry/commitlint-commitizen)
 
-## Tenmplate
+## Template
 
 - [Шаблон для верстки писем](https://github.com/slytry/foundation-for-emails)
-- [imageOptimization-fontConversion-gulp](https://github.com/slytry/imageOptimization-fontConversion-gulp)
-- [Шаблон для проектов на винильной JS](https://github.com/slytry/template-gulp)
+- [Оптимизатор/конвертатор изображений и шрифтов](https://github.com/slytry/imageOptimization-fontConversion-gulp)
+- [Для vanily JS проектов](https://github.com/slytry/template-gulp)
 
 ## Other
 
