@@ -10,9 +10,11 @@
 
 ## Study 
 
+- [Общий сайт для обучения на нексте (/training-combine-nextjs)](https://github.com/slytry/training-combine-nextjs)
 - [Смотрел как работает setTimeout в useEffect (/study__setTimeout-on-useEffect)](https://github.com/slytry/study__setTimeout-on-useEffect)
 - [Пробовал констуктор коммитов с хаски (/commitlint-commitizen)](https://github.com/slytry/commitlint-commitizen)
 - [Учился верстать на примере Playkot (/Playkot)](https://github.com/slytry/Playkot)
+- [Смотрел библотеку для анимаций (/css-transition-group)](https://github.com/slytry/css-transition-group)
 
 ## Template
 
