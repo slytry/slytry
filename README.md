@@ -22,6 +22,10 @@
 - [Оптимизатор/конвертатор изображений и шрифтов (/imageOptimization-fontConversion-gulp)](https://github.com/slytry/imageOptimization-fontConversion-gulp)
 - [Для vanily JS проектов (/template-gulp)](https://github.com/slytry/template-gulp)
 
+## Projects
+
+- [Rect, storybook (/sandbox-intern)](https://github.com/slytry/sandbox-intern)
+
 ## Other
 
 - [Настройка git и bash (/terminal-settings)](https://github.com/slytry/terminal-settings)
