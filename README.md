@@ -21,6 +21,7 @@
 - [Шаблон для верстки писем (/foundation-for-emails)](https://github.com/slytry/foundation-for-emails)
 - [Оптимизатор/конвертатор изображений и шрифтов (/imageOptimization-fontConversion-gulp)](https://github.com/slytry/imageOptimization-fontConversion-gulp)
 - [Для vanily JS проектов (/template-gulp)](https://github.com/slytry/template-gulp)
+- [NEXT.JS шаблон (/react.nextjs](https://github.com/slytry/react.nextjs)
 
 ## Projects
 
