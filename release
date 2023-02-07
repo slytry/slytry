@@ -1,0 +1,39 @@
+
+# Копирует папку src с ветки master в release
+# Альтернатива резрешению конфликтов
+
+
+# Get release version
+
+param(
+     [Parameter()]
+     [string]$ver
+ )
+
+# User profile path
+Set-Variable -Name "User_Profile" -Value ".\src"
+# Temporary Destination path
+Set-Variable -Name "Temp_Destination" -Value "C:\Backup"
+
+Write-Output "Copying User Profile Files/Folders to '$Temp_Destination'"
+Write-Output ""
+Start-Sleep -s 1
+
+$ExcludedContent = @(
+    '.next'
+    'node_modules'
+)
+
+Get-Item -Path $User_Profile\* -Exclude $ExcludedContent -Force | Copy-Item -Destination $Temp_Destination -Recurse
+
+git switch release
+git clean -fxd src/node_modules
+Remove-Item -Path $User_Profile\* -Recurse -Force
+Copy-Item -path $Temp_Destination/* -Destination $User_Profile -Recurse
+Set-Location src
+pn i
+pn build
+git add -a
+git commit -m"$ver"
+git push
+git switch master
