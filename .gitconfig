@@ -1,0 +1,28 @@
+
+[credential "https://gitlab.com"]
+	provider = generic
+[core]
+	editor = code --wait
+	longpaths = true
+	autocrlf = false
+[user]
+	name = Nikita Naumov
+	email = naumov99.rst@gmail.com
+[help]
+	autocorrect = 20
+[alias]
+	co = checkout
+	ci = commit
+	st = status -sb
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	last = log -1 HEAD --stat
+	ciam = commit -am
+	rv = remote -v
+	dv = difftool -t vimdiff -y
+	rth = reset --hard @
+	ce = config --global -e
+	se = !git rev-list --all | xargs git grep -F
+	sw = switch
