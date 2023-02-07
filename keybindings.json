@@ -1,0 +1,47 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+shift+s",
+		"command": "-workbench.action.files.saveAs"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "-workbench.action.files.saveLocalFile",
+		"when": "remoteFileDialogVisible"
+	},
+	{
+		"key": "ctrl+shift+s",
+		"command": "workbench.action.files.saveWithoutFormatting"
+	},
+	{
+		"key": "ctrl+k ctrl+shift+s",
+		"command": "-workbench.action.files.saveWithoutFormatting"
+	},
+	{
+		"key": "ctrl+shift+1",
+		"command": "editor.action.insertSnippet",
+		"when": "editorTextFocus",
+		"args": {
+			"langId": "typescriptreact",
+			"name": "addBindStyle"
+		}
+	},
+	{
+		"key": "ctrl+shift+2",
+		"command": "editor.action.insertSnippet",
+		"when": "editorTextFocus",
+		"args": {
+			"langId": "typescriptreact",
+			"name": "Create a React component"
+		}
+	},
+	{
+		"key": "ctrl+shift+3",
+		"command": "editor.action.insertSnippet",
+		"when": "editorTextFocus",
+		"args": {
+			"langId": "typescriptreact",
+			"name": "Convert to return"
+		}
+	},
+]
