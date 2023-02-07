@@ -1,0 +1,103 @@
+{
+	"Reexport all": {
+		"prefix": "re",
+		"description": "Creates className react attribute",
+		"body": [
+			"export * from './$1';"
+		],
+		"scope": "typescript,typescriptreact,javascript,javascriptreact"
+	},
+	//===========================================
+	//============= scss ========================
+	//===========================================
+	"respond-above": {
+		"prefix": "ra",
+		"body": [
+			"@include respondAbove($1) {",
+			"$2",
+			"}"
+		],
+		"description": "Log output to console",
+		"scope": "scss,sass"
+	},
+	"respond-below": {
+		"prefix": "rb",
+		"body": [
+			"@include respondBelow($1) {",
+			"$2",
+			"}"
+		],
+		"description": "Log output to console",
+		"scope": "scss,sass"
+	},
+	//===========================================
+	//============== style ======================
+	//===========================================
+	"addBindStyle": {
+		"prefix": "cv",
+		"description": "Creates a import styles and Classnames lib",
+		"body": [
+			"import cx from './index.module.scss';",
+			""
+		],
+		"scope": "typescript,typescriptreact"
+	},
+	"addClassName": {
+		"prefix": "cx",
+		"description": "Creates className react attribute",
+		"body": [
+			"className={cx('$1')}"
+		],
+		"scope": "typescript,typescriptreact"
+	},
+	"addStyles": {
+		"prefix": "cnstyle",
+		"description": "Creates a import styles and Classnames lib",
+		"body": [
+			"import cn from 'classnames/bind';",
+			"",
+			"import styles from './index.module.scss';",
+			"",
+			"const cx = cn.bind(styles);",
+			""
+		],
+		"scope": "typescript,typescriptreact,javascript,javascriptreact"
+	},
+	//===========================================
+	//============= React Component =============
+	//===========================================
+	"Create a React component": {
+		"prefix": "rfc",
+		"body": [
+			"import cx from './index.module.scss';",
+			"",
+			"interface ${1:${TM_FILENAME_BASE}}Props {",
+			"\tprop?: string;",
+			"}",
+			"",
+			"const ${1:${TM_FILENAME_BASE}} = (props : ${1:${TM_FILENAME_BASE}}Props ) => {",
+			"",
+			"\tconst {prop} = props;",
+			"",
+			"\treturn (",
+			"\t\t<div className={cx('Root')}>",
+			"\t\t\t{prop}$0",
+			"\t\t</div>",
+			"\t);",
+			"};",
+			"",
+			"export {${1:${TM_FILENAME_BASE}}};",
+		],
+		"description": "Create a React functional component using TypeScript and SCSS modules"
+	},
+	"Convert to return": {
+		"prefix": "rr",
+		"body": [
+			"{",
+			"const a = 5;",
+			"return ${TM_SELECTED_TEXT}",
+			"};",
+		],
+		"description": "Create a React functional component using TypeScript and SCSS modules"
+	},
+}
